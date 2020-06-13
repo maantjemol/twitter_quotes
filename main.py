@@ -21,4 +21,4 @@ def tweet():
 
 while True:
     tweet()
-    time.sleep(1800)
+    time.sleep(300)
