@@ -19,6 +19,5 @@ def tweet():
     api.update_status(quote)
     print("I tweeted: " + quote)
 
-while True:
-    tweet()
-    time.sleep(300)
+tweet()
+
